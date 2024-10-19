@@ -18,8 +18,8 @@ const Home = () => {
           <VStack width={"full"} alignItems={["center","flex-end"]} justifyContent="center" textAlign={['center','left']} spacing={'6'}>
             <Heading children="LEARN FROM THE PAST PAPERS" size={"2xl"} />
             <Text fontSize='2xl' fontFamily={'cursive'} children="Find all the past papers of your desire" />
-            <Link to="/papers">
-              <Button size={'lg'} colorScheme="yellow">
+            <Link to="/previouspapers">
+              <Button size={'lg'} colorScheme="yellow" >
               Explore Now
               </Button>
             </Link>

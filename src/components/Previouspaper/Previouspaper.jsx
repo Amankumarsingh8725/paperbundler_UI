@@ -49,7 +49,7 @@ const Previouspaper = () => {
     }, [category, semester, keyword, dispatch])
 
     const semesters = ["sem1", "sem2", "sem3", "sem4", "sem5", "sem6", "sem7", "sem8"];
-    const categories = ["end semester", "mid semester"];
+    const categories = ["ESE", "MSE"];
 
     return (
         <Container minH={"95vh"} paddingY={'8'} maxW={'container.md'}>
