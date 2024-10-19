@@ -25,7 +25,7 @@ const Header = ({isAuthenticated=false,user}) => {
 
   return (
     <>
-      {/* <ColorModeSwitcher /> */}
+      <ColorModeSwitcher />
       
       <Button onClick={onOpen} colorScheme='yellow' position={'fixed'} top='4' left={'4'}>
         <RiMenu5Fill /></Button>
@@ -39,7 +39,7 @@ const Header = ({isAuthenticated=false,user}) => {
               <Linkbutton onClose={onClose} url='/previouspapers' title='Question-Papers' />
               <Linkbutton onClose={onClose} url='/practicalfile' title='Practical-File' />
               <Linkbutton onClose={onClose} url='/contact' title='Contact Us' />
-              <Linkbutton onClose={onClose} url='/aboutus' title='AboutUs' />
+              {/* <Linkbutton onClose={onClose} url='/aboutus' title='AboutUs' /> */}
             </VStack>
 
             <HStack justifyContent={'space-evenly'} position='absolute' bottom={'2rem'}
