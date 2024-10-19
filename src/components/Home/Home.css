@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+.vector-graphics{
+    /* filter: drop-shadow(0px 40px 40px rgba(0, 0, 0, 0.3)); */
+    animation: vectoranimation 1s infinite ease-in-out alternate;
+}
+@keyframes vectoranimation{
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+.practiclefile{
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+.practiclefile:hover{
+    transform: translateY(-10px);
+}
